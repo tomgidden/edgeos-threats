@@ -18,7 +18,7 @@ function load_threats () {
 
 function prep_dir () {
   L=$1
-  rm -rf $L || true
+#rm -rf $L || true
   mkdir -p $L
   cd $L
 }
